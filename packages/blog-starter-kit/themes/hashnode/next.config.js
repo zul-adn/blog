@@ -74,6 +74,14 @@ const config = {
 	},
 	async rewrites() {
 		return [
+       {
+        source: "/blog",
+        destination: "https://blog-eta-umber-96.vercel.app/blog", -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+      },
+      {
+        source: "/blog/:path*",
+        destination: "https://blog-eta-umber-96.vercel.app/blog/:path*", -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+      },
 			{
 				source: '/ping/data-event',
 				destination: `${ANALYTICS_BASE_URL}/api/data-event`,
