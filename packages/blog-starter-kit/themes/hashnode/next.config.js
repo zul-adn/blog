@@ -76,11 +76,11 @@ const config = {
 		return [
        {
         source: "/blog",
-        destination: "https://blog-eta-umber-96.vercel.app/blog", -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+        destination: "https://blog-eta-umber-96.vercel.app/blog",
       },
       {
         source: "/blog/:path*",
-        destination: "https://blog-eta-umber-96.vercel.app/blog/:path*", -> Replace https://starter-kit-rose-seven.vercel.app with your own Vercel deployment URL from step 1
+        destination: "https://blog-eta-umber-96.vercel.app/blog/:path*",
       },
 			{
 				source: '/ping/data-event',
